@@ -7,19 +7,19 @@ export function Projects() {
         {
             title: "Smart Harpia",
             description: "Descrição do Projeto",
-            img_url: "/public/smart.jpg",
+            img_url: "/smart.jpg",
             tags: ["Meio Ambiente", "IoT"]
         },
         {
             title: "Smart Harpia",
             description: "Descrição do Projeto",
-            img_url: "/public/smart.jpg",
+            img_url: "/smart.jpg",
             tags: ["Meio Ambiente", "IoT"]
         },
         {
             title: "Smart Harpia",
             description: "Descrição do Projeto",
-            img_url: "/public/smart.jpg",
+            img_url: "/smart.jpg",
             tags: ["Meio Ambiente", "IoT"]
         },
     ]
