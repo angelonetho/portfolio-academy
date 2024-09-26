@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import styled  from "styled-components";
 
 export const HeaderContainer = styled.header`
@@ -19,7 +20,9 @@ export const HeaderContainer = styled.header`
     user-select: none;
 `
 
-export const CloseButton = styled.button`
+export const CloseButton = styled(NavLink)`
+    text-decoration: none;
+
     font-family: "IBM Plex Sans", sans-serif;
     font-weight: bold;
     font-size: 1.25rem;

@@ -4,9 +4,11 @@ export function Header() {
     return (
         <HeaderContainer>
             <span>Meus Projetos</span>
-            <CloseButton>
+
+            <CloseButton to="/">
                 <span>X</span>
             </CloseButton>
+
         </HeaderContainer>
     )
 }
