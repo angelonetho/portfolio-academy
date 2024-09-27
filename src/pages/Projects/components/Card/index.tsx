@@ -5,10 +5,11 @@ interface CardProps {
     title: string;
     description: string;
     img_url: string;
+    page_url: string;
     tags: string[];
 }
 
-export function Card({title, description, img_url, tags}: CardProps) {
+export function Card({title, description, img_url, page_url, tags}: CardProps) {
     return(
         <CardContainer>
 
@@ -27,7 +28,7 @@ export function Card({title, description, img_url, tags}: CardProps) {
                ))}
             </div>
 
-            <Button content="Detalhes" to="/" variant="purple"/>
+            <Button content="Detalhes" to={page_url} variant="purple"/>
         </CardContainer>
     )
 }
