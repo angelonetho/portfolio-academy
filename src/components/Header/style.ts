@@ -32,7 +32,7 @@ export const CloseButton = styled(NavLink)`
 
     width: 2.25rem;
     height: 2.25rem;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;

@@ -1,5 +1,6 @@
 import { ReactNode } from "react";
 import { BaseContainer } from "./style";
+import { Header } from "../Header";
 
 interface BaseWindowProps {
     children: ReactNode;
@@ -8,7 +9,13 @@ interface BaseWindowProps {
 export function BaseWindow({children}: BaseWindowProps) {
     return (
         <BaseContainer>
-            {children}
+            <div className="window-container">
+            <Header/>
+            <main className="content-container">
+
+                {children}
+            </main>
+            </div>
         </BaseContainer>
     )
 }

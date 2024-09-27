@@ -10,7 +10,7 @@ export function Home() {
                 <button>Projetos</button>
                 </NavLink>
                 
-                <NavLink to={"/"} >
+                <NavLink to={"/collection"} >
                 <button>Coleções</button>
                 </NavLink>
                 <NavLink to={"/"}>
