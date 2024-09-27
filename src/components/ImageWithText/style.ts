@@ -27,4 +27,11 @@ export const ImageContainer = styled.div`
     margin-bottom: 2rem;
 
     user-select: none;
+
+    @media (max-width: 768px) {
+
+        img, span {
+            max-width: 90%;
+        }
+    }
 `

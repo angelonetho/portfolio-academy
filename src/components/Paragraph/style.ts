@@ -6,4 +6,11 @@ export const ParagraphContainer = styled.div`
     width: 75%;
     font-size: 1.25rem;
     font-family: "IBM Plex Sans", sans-serif;
+
+    @media (max-width: 768px) {
+
+        .paragraph {
+            width: 100%;
+        }
+    }
 `

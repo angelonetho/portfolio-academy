@@ -126,6 +126,8 @@ body {
     border-top-left-radius: 16px 96px;
     border-bottom-left-radius: 16px 96px;
   }
+
+
   
   .buttons-container {
     display: flex;
@@ -139,8 +141,7 @@ body {
       font-family: 'IBM Plex Mono', 'Courier New', Courier, monospace;
     }
   }
-  
-  
+
   @media only screen and (max-width: 768px) {
     img {
       width: 20rem;
@@ -152,6 +153,8 @@ body {
     }
   
     .buttons-container {
-        flex-direction: column;
-      }
+      flex-direction: column;
+      align-items: center;
+    }
   }
+  

@@ -54,4 +54,23 @@ export const BaseContainer = styled.div<BaseContainerProps>`
     height: 75vh;
     scroll-behavior: smooth;
     }
+
+    @media (max-width: 768px) {
+       
+        height: 100%; 
+
+        .window-container {
+            width: 100vw;
+            height: 100vh;
+            margin: 0;
+            border-bottom: 0;
+            filter: none;
+        }
+        
+        .content-container {
+            padding-bottom: 20vh;
+            gap: 1.5rem;
+            overflow-x: hidden;
+        }
+    }
 `
