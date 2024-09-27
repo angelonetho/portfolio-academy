@@ -24,7 +24,7 @@ export function Projects() {
     ]
 
     return(
-        <BaseWindow>
+        <BaseWindow title="Meus Projetos" variant="purple" close_to="/">
             {cards.map((card, index) => (
                     <Card key={index} title={card.title} description={card.description} img_url={card.img_url} tags={card.tags}/>
                 ))}

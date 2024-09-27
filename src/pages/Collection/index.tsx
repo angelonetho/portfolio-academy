@@ -5,8 +5,8 @@ import { Title } from "../../components/Title";
 
 export function Collection() {
     return (
-        <BaseWindow>
-            <Title>Smart Harpia</Title>
+        <BaseWindow title="Minha Coleção" variant="orange" close_to="/">
+            <Title variant="orange">Smart Harpia</Title>
             <ImageWithText src="/smart.jpg" description="Descrição da imagem"/>
             <Paragraph>teste</Paragraph>
         </BaseWindow>

@@ -1,7 +1,18 @@
 import styled from "styled-components";
 
-export const BaseContainer = styled.div`
-    background: linear-gradient(#9F7AE3, #B4A2D6) fixed;
+interface BaseContainerProps {
+    variant:'purple'| 'blue'| 'orange';
+}
+
+export const BaseContainer = styled.div<BaseContainerProps>`
+
+    background: ${(props) =>
+    props.variant === 'purple'
+      ? 'linear-gradient(#9F7AE3, #B4A2D6) fixed'
+      : props.variant === 'blue'
+      ? 'linear-gradient(#4188F1 15%, #8FBCFF) fixed'
+      : 'linear-gradient(#F19A65, #F0CBB5) fixed'};
+
     margin: 0;
     display: flex;
     height: 100vh;
@@ -18,7 +29,12 @@ export const BaseContainer = styled.div`
     border: solid black 2px;
     border-radius: 6px;
 
-    background: linear-gradient(#9F7AE3, #B4A2D6);
+    background: ${(props) =>
+    props.variant === 'purple'
+      ? 'linear-gradient(#9F7AE3, #B4A2D6)'
+      : props.variant === 'blue'
+      ? 'linear-gradient(#4188F1 15%, #8FBCFF)'
+      : 'linear-gradient(#F19A65, #F0CBB5)'};
 
     max-width: 1560px;
 

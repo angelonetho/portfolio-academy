@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
-export const TitleContainer = styled.div`
+interface TitleContainerProps {
+    variant:'purple'| 'blue'| 'orange';
+}
+
+export const TitleContainer = styled.div<TitleContainerProps>`
 
     position: relative;
     display: flex;
@@ -21,7 +25,12 @@ export const TitleContainer = styled.div`
     }
     
     .background-big-text {
-        background: linear-gradient(#fff, #609FFF);
+        background: ${(props) =>
+        props.variant === 'purple'
+        ? 'linear-gradient(#fff, #B4A2D6)'
+        : props.variant === 'blue'
+        ? 'linear-gradient(#fff, #609FFF)'
+        : 'linear-gradient(#fff, #FF6F19)'};
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;

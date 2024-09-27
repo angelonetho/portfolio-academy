@@ -3,11 +3,12 @@ import { TitleContainer } from "./style";
 
 interface TitleProps {
     children: ReactNode;
+    variant:  'purple'| 'blue'| 'orange';
 }
 
-export function Title({children}: TitleProps) {
+export function Title({children, variant}: TitleProps) {
     return (
-        <TitleContainer>
+        <TitleContainer variant={variant}>
             <span className="big-text stroke-big-text">{children}</span>
             <span className="big-text background-big-text">{children}</span>
       </TitleContainer>
