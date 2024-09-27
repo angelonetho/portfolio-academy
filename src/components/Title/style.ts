@@ -43,11 +43,11 @@ export const TitleContainer = styled.div<TitleContainerProps>`
 
     @media (max-width: 768px) {
 
-        .title-container {
-            .big-text {
-                font-size: 4rem;
-            }   
-        }
+    
+        .big-text {
+            font-size: 4rem;
+        }   
+        
 
         span {
             max-width: 90%;

@@ -148,8 +148,9 @@ body {
     }
   
     button {
-      font-size: 1.5rem;
+      font-size: 2rem;
       padding: 0.4rem 0.8rem;
+      width: 8rem;
     }
   
     .buttons-container {

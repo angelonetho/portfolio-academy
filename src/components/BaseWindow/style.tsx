@@ -58,6 +58,7 @@ export const BaseContainer = styled.div<BaseContainerProps>`
     @media (max-width: 768px) {
        
         height: 100%; 
+        overflow-x: hidden;
 
         .window-container {
             width: 100vw;
