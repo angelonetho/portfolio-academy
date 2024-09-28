@@ -37,6 +37,7 @@ export const BaseContainer = styled.div<BaseContainerProps>`
       : 'linear-gradient(#F19A65, #F0CBB5)'};
 
     max-width: 1560px;
+    
 
     filter: drop-shadow(0 0 2px rgb(0, 0, 0, 0.5))
     }
@@ -53,6 +54,10 @@ export const BaseContainer = styled.div<BaseContainerProps>`
     overflow-y: scroll;
     height: 75vh;
     scroll-behavior: smooth;
+    }
+
+    iframe { 
+        border: solid black 2px;
     }
 
     @media (max-width: 768px) {

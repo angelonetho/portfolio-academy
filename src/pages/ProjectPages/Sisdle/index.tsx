@@ -4,7 +4,7 @@ import { Paragraph } from "../../../components/Paragraph";
 import { Title } from "../../../components/Title";
 
 export function Sisdle() {
-    const variant = "orange"
+    const variant = "blue"
 
     return (
         <BaseWindow title="Sisdle" variant={variant} close_to="/projects">
