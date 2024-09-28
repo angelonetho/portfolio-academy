@@ -46,7 +46,7 @@ export function Projects() {
             tags: ["Comunitário", "Gestão de Voluntários", "ONG"]
         },
         {
-            title: "Game Engine RPG",
+            title: "Game Engine",
             description: "Desenvolvimento de uma engine de RPG do zero, utilizando Java para criar funcionalidades de gameplay e estrutura de jogos 2D.",
             img_url: "/game-engine.webp",
             page_url: "game-engine-rpg",
@@ -67,21 +67,21 @@ export function Projects() {
             tags: ["Minecraft", "Anticheat", "Publicado"]
         },
         {
-            title: "Engine Minigames",
+            title: "Minigame Engine",
             description: "Engine base desenvolvida para servir como molde para criação de diferentes modos de jogo em servidores de Minecraft.",
             img_url: "/minigame.webp",
             page_url: "engine-minigames",
             tags: ["Minecraft", "Engine", "Desenvolvimento"]
         },
         {
-            title: "Portfólio Apple Academy",
+            title: "Portfólio",
             description: "Portfólio web desenvolvido especialmente para o processo seletivo da Apple Academy, utilizando design retro-moderno.",
             img_url: "/portfolio.webp",
             page_url: "portfolio-apple-academy",
             tags: ["React", "Styled Components", "Portfólio", "Apple Academy"]
         },
         {
-            title: "Quiz do Faustão",
+            title: "Fausto Quiz",
             description: "Jogo de perguntas e respostas desenvolvido para testar conhecimentos sobre o apresentador Faustão.",
             img_url: "/fausto.webp",
             page_url: "quiz-do-faustao",
@@ -95,7 +95,7 @@ export function Projects() {
             tags: ["React", "Hooks", "Estudos"]
         },
         {
-            title: "Daily Diet API",
+            title: "DailyDiet API",
             description: "API para cadastro e acompanhamento de refeições, auxiliando o usuário no controle da sua dieta diária.",
             img_url: "/diet.webp",
             page_url: "daily-diet-api",

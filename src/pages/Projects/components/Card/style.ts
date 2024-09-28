@@ -67,6 +67,10 @@ export const CardContainer = styled.div`
         height: 10.5rem;
     }
 
+    .button-container {
+            padding-bottom: 4rem;
+        }
+
     .card-tags {
         display: flex;
         flex-direction: row;
@@ -88,6 +92,8 @@ export const CardContainer = styled.div`
             border-radius: 16px;
             padding: 0 0.5rem;
         }
+
+     
     }
 
     @media (max-width: 768px) {
@@ -95,8 +101,16 @@ export const CardContainer = styled.div`
         width: 100%;
         max-width: 100%;
 
-        img, .card-description, .card-tags {
+        .button-container {
+            padding-bottom: 4rem;
+        }
+
+        .card-description, .card-tags {
             max-width: 80%;
+        }
+
+        img {
+            max-width: 95%;
         }
     }
 `

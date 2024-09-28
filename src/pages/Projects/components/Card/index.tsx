@@ -27,8 +27,11 @@ export function Card({title, description, img_url, page_url, tags}: CardProps) {
                  <div key={index} className="card-tag">{tag}</div>
                ))}
             </div>
+            <div className="button-container">
+                <Button content="Detalhes" to={page_url} variant="purple"/>
+            </div>
 
-            <Button content="Detalhes" to={page_url} variant="purple"/>
+            
         </CardContainer>
     )
 }
