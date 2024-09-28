@@ -13,6 +13,9 @@ export function Home() {
                 <NavLink to={"/collection"} >
                 <button>Coleções</button>
                 </NavLink>
+                <NavLink to={"/certificates"} >
+                <button>Certificados</button>
+                </NavLink>
                 <a href="https://github.com/angelonetho">
                     <button>GitHub</button>
                 </a>

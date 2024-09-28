@@ -1,11 +1,10 @@
 import styled from "styled-components";
 
-export const ParagraphContainer = styled.div`
+export const AlignmentContainer = styled.div`
     display: flex;
     margin: 0 auto;
+    justify-content: center;
     width: 75%;
-    font-size: 1.25rem;
-    font-family: "IBM Plex Sans", sans-serif;
 
     @media (max-width: 768px) {
         width: 100%;

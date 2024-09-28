@@ -4,6 +4,7 @@ import { Projects } from './pages/Projects'
 import { Collection } from './pages/Collection'
 import { SmartHarpia } from './pages/ProjectPages/SmartHarpia'
 import { Sisdle } from './pages/ProjectPages/Sisdle'
+import { Certificates } from './pages/Certificates'
 
 export function Router() {
   return (
@@ -19,6 +20,7 @@ export function Router() {
         </Route>
 
         <Route path="collection" element={<Collection />} />
+        <Route path="certificates" element={<Certificates />} />
       </Route>
     </Routes>
   )

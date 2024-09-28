@@ -68,8 +68,8 @@ export const CardContainer = styled.div`
     }
 
     .button-container {
-            padding-bottom: 4rem;
-        }
+        padding-bottom: 4rem;
+    }
 
     .card-tags {
         display: flex;
