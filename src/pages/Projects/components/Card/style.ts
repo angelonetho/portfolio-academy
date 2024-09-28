@@ -59,7 +59,7 @@ export const CardContainer = styled.div`
         margin-top: 1.5rem;
         font-family: "IBM Plex Sans", sans-serif;
         text-align: center;
-        font-size: 14px;
+        font-size: 1.25rem;
         color: black;
         font-weight: 400;
         
