@@ -45,8 +45,13 @@ export const TitleContainer = styled.div<TitleContainerProps>`
 
     
         .big-text {
-            font-size: 4rem;
+            font-size: 2.5rem;
         }   
+
+        .stroke-big-text {
+        -webkit-text-stroke-width: 5px;
+
+        }
         
 
         span {
