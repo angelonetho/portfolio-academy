@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const ImageContainer = styled.div`
     width: 100%;
 
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,7 +25,8 @@ export const ImageContainer = styled.div`
         width: 30rem;
     }
 
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
 
     user-select: none;
 
