@@ -82,7 +82,7 @@ export function Collection() {
 
                 E vai melhorando. Nas aulas de artes, a gente teve que aprender a tocar música para apresentar em um festival. Ninguém ali sabia tocar, mas a gente conseguiu.<br/><br/>
 
-                Nos dois últimos anos, a gente precisava arrecadar dinheiro para a nossa formatura. Eu fazia parte da comissão e cuidava do financeiro. Para arrecadar fundos, a gente organizou um evento de anime no IF; veio muita gente, foi muito divertido e a gente conseguiu o dinheiro para fazer nossa formatura.<br/><br/>
+                Nos dois últimos anos, a gente precisava arrecadar dinheiro para a nossa formatura. Eu fazia parte da comissão e cuidava do financeiro. Para arrecadar fundos, a gente organizou um evento de anime no IF; veio muita gente, foi muito divertido e a gente conseguiu o dinheiro para fazer nossa formatura. Eu aprendi muito sobre como lidar com pessoas e público nesse projeto.<br/><br/>
 
                 No último ano teve o espetáculo; a gente teve que produzir um circo e apresentar para a escola inteira. O auditório estava lotado de gente e todo mundo, no final, gritava o nome da nossa turma.<br/><br/>
 
