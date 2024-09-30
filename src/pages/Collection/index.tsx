@@ -34,7 +34,7 @@ export function Collection() {
 
                 Um dos plugins que eu desenvolvi para um servidor de RPG adicionava uma barra de vida em cima do jogador, e na época o jogo tinha acabado de atualizar, e o desenvolvedor que já tinha esse plugin tinha sumido. <br/><br/><br/>
             </Paragraph>
-                <ImageWithText src="/healthbar.webp" description="As barras de vida eram adicionadas acima da entidade."/>
+                <ImageWithText src="/healthbar.webp" description="As barras de vida eram adicionadas acima das entidades."/>
             <Paragraph>
 
                 Eu publiquei esse plugin e fiquei impressionado com como uma ideia tão simples, uma programação tão simples, serviu para tantas pessoas. <br/><br/>
@@ -80,7 +80,7 @@ export function Collection() {
                 <ImageWithText src="/teatro.webp" description="Uma avaliação de artes era fazer um remake do Chaves."/>
             <Paragraph>
 
-                Mas calma, vai melhorando. Nas aulas de artes, a gente teve que aprender a tocar uma música para apresentar em um festival. Ninguém ali sabia tocar, mas a gente conseguiu.<br/><br/>
+                E vai melhorando. Nas aulas de artes, a gente teve que aprender a tocar música para apresentar em um festival. Ninguém ali sabia tocar, mas a gente conseguiu.<br/><br/>
 
                 Nos dois últimos anos, a gente precisava arrecadar dinheiro para a nossa formatura. Eu fazia parte da comissão e cuidava do financeiro. Para arrecadar fundos, a gente organizou um evento de anime no IF; veio muita gente, foi muito divertido e a gente conseguiu o dinheiro para fazer nossa formatura.<br/><br/>
 
