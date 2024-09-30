@@ -33,14 +33,16 @@ export function Collection() {
                 Justamente por desenvolver esses plugins para o servidor com meus amigos, eu notei que podia separá-los em módulos e publicar em um fórum público, assim outras pessoas poderiam ter acesso também. <br/><br/>
 
                 Um dos plugins que eu desenvolvi para um servidor de RPG adicionava uma barra de vida em cima do jogador, e na época o jogo tinha acabado de atualizar, e o desenvolvedor que já tinha esse plugin tinha sumido. <br/><br/><br/>
-
+            </Paragraph>
                 <ImageWithText src="/healthbar.webp" description="As barras de vida eram adicionadas acima da entidade."/>
+            <Paragraph>
 
                 Eu publiquei esse plugin e fiquei impressionado com como uma ideia tão simples, uma programação tão simples, serviu para tantas pessoas. <br/><br/>
 
                 Hoje esse projeto tem mais de 100 mil downloads nesse fórum. Quando fui a um show no Allianz Parque, eu olhei aquela imensidão de gente e pensei: "Cara, aqui só tem 50 mil, o dobro de todo esse tanto de gente baixou algo que eu fiz." <br/><br/>
-                
+            </Paragraph>
                 <ImageWithText src="/healthbar2.webp" description="Mais de 100 mil downloads no fórum do Spigot."/>
+            <Paragraph>
                 
                 Eu me orgulho muito desse projeto; ele me ensinou que, às vezes, a ideia mais simples é o que todo mundo precisa. 
             </Paragraph>
@@ -52,15 +54,16 @@ export function Collection() {
                 Ir à academia agora é muito mais fácil com um motivando o outro. Quando o tempo está bom, a gente até corre no Parque Barigui.<br/><br/>
 
                 Mas se tem uma coisa que eu gosto de fazer com ele, é assistir a filmes e séries. É ele quem me introduz às coisas boas; foi ele que me mostrou os meus filmes favoritos.<br/><br/>
-
+            </Paragraph>
                 <ImageWithText src="/irmao.webp" description="  <-- Meu irmão é o da esquerda."/>
+            <Paragraph>
 
                 Todo final de semana eu desço para Paranaguá, para matar a saudade da minha avó, minha tia e do meu pai (e do meu cachorro também).<br/><br/>
 
                 E à noite a gente assiste a alguma coisa, e para isso eu geralmente faço uma pizza; eu gosto de fazer pizza.<br/><br/><br/>
-
-                <ImageWithText src="/pizza.webp" description="Eu gosto de fazer pizza. :)"/>
+                
             </Paragraph>
+                <ImageWithText src="/pizza.webp" description="Eu gosto de fazer pizza. :)"/>
 
             <Title variant="orange">IFPR</Title>
             <Paragraph>
@@ -73,8 +76,9 @@ export function Collection() {
                 As aulas de artes e educação física eram especialistas em fazer coisas aleatórias que me marcaram.<br/><br/>
 
                 Em educação física, eu adorava quando, do nada, a professora chegava e a gente tinha aula de dança ou de luta; eu aprendi a dançar tango e boxe na mesma semana.<br/><br/>
-
+            </Paragraph>
                 <ImageWithText src="/teatro.webp" description="Uma avaliação de artes era fazer um remake do Chaves."/>
+            <Paragraph>
 
                 Mas calma, vai melhorando. Nas aulas de artes, a gente teve que aprender a tocar uma música para apresentar em um festival. Ninguém ali sabia tocar, mas a gente conseguiu.<br/><br/>
 
@@ -84,28 +88,32 @@ export function Collection() {
 
                 Também havia eventos de e-sports no IFPR. Eu e meus amigos nos juntamos e formamos uma equipe de 6 pessoas. A equipe que eu participava ganhou o campeonato local e a gente ficou em 2º lugar no Paraná inteiro.<br/><br/>
 
+            </Paragraph>
                 <ImageWithText src="/lol.webp" description="Jogando a final do campeonato local."/>
+            <Paragraph>
+
                 
                 E o principal, que eram as matérias técnicas, eu também gostei muito.<br/><br/>
 
                 Quando eu cheguei, consegui fazer amizades com os veteranos.<br/><br/>
 
                 Mais tarde, um amigo meu, que era veterano, me chamou para ser voluntário de um projeto que ele era bolsista.<br/><br/>
-
+            </Paragraph>
                 <ImageWithText src="/sisdle.webp" description="A gente apresentando o projeto na feira de cursos."/>
+            <Paragraph>
 
                 Eu aceitei, e foi algo muito bom para mim. Eu nunca tinha desenvolvido algo em equipe; no começo, eu não gostava que ele negasse minhas Pull Requests no GitHub, mas eu aprendi muita coisa com ele sobre desenvolvimento de software em equipe. Eu sempre busco passar essas orientações que recebi para frente. Quando eu pego um grupo mais inexperiente na faculdade, eu tento ser o que o meu amigo foi para mim lá atrás.<br/><br/>
 
                 Os frutos desse trabalho voluntário não pararam por aí. O professor desse projeto já me reconhecia por eu ser bom nas aulas dele. No ano seguinte, eu perguntei para ele se havia mais algum trabalho, porque eu tinha gostado de desenvolver. Foi então que surgiu a oportunidade de trabalhar na primeira Incubadora de Projetos do litoral do Paraná.<br/><br/>
 
-                <ImageWithText src="/incubadora.webp" description="Dia de visita do SEBRAE na Incubadora."/>
             </Paragraph>
+                <ImageWithText src="/incubadora.webp" description="Dia de visita do SEBRAE na Incubadora."/>
 
             <Title variant="orange">Resumo da Ópera</Title>
             <Paragraph>
                 Eu, Angelo Andrioli Netho, tenho 19 anos, gosto de natação, mas faço musculação, gosto de passar tempo de qualidade com minha família e meus amigos, gosto de fazer pizza, entre outras comidas, para as pessoas que eu gosto, tenho miopia e astigmatismo, amo meu cachorro, sou uma pessoa muito lógica, mas isso não me impede de ter uma inteligência emocional e criatividade bem desenvolvidas.
-                <ImageWithText src="/haru2.webp" description="Esse é o Haru, você vai ver bastante esse nome nos meus projetos."/>
             </Paragraph>
+                <ImageWithText src="/haru2.webp" description="Esse é o Haru, você vai ver bastante esse nome nos meus projetos."/>
         </BaseWindow>
     )
 }
